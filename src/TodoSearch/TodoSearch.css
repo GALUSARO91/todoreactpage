@@ -1,0 +1,27 @@
+.Searchbox input{
+    background: none;
+    border: none;
+    color:var(--highlight2);
+    background-color:var(--background1);
+    font-style: italic;
+    border: 1px solid var(--highlight1);
+    border-radius: 10px;
+}
+
+::placeholder{
+    color:var(--highlight2);
+    opacity: 0.8;
+    text-align:left;
+}
+
+.Searchbox input[type="text"]:focus{
+    outline:none;
+}
+
+.Searchbox{
+    display: inline-block;
+    /* border-bottom: 3px double black; */
+
+}
+
+

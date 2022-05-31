@@ -1,0 +1,53 @@
+#TodoForm{
+    background-color: var(--background2);
+    width: 40%;
+    height: 40%;
+}
+
+#TodoForm label{
+    color: var(--letters2);
+    text-decoration:underline;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+#TodoForm textarea{
+    margin: auto;
+    display: block;
+    height: 50%;
+    width: 50%;
+    background: var(--background1);
+}
+
+button{
+    display: inline-block;
+    margin: 0 1%;
+    width: 30%;
+    /* height: 15% */
+}
+
+#TodoForm div{
+    height: 10%;
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#TodoForm button[type="button"]{
+    background: var(--highlight1);
+    border: 1px solid  var(--highlight1);
+    border-radius: 10%;
+    color:var(--background2);
+    font-weight: bold;
+}
+
+#TodoForm button[type="submit"]{
+    background: var(--highlight2);
+    border: 1px solid  var(--highlight2);
+    border-radius: 10%;
+    color:var(--letters1);
+    font-weight: bold;
+}
